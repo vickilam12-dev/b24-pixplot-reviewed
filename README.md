@@ -8,10 +8,11 @@ This is the output of Part 3 of the PixPlot tutorial series.
 
 ## Viewing it
 
+**Live: <https://vickilam12-dev.github.io/b24-pixplot-reviewed/output/>** — hosted with GitHub
+Pages, so it works on any device without your Mac running.
+
 The viewer needs to be served over HTTP — opening `index.html` directly from disk will not
 work, because the viewer loads its data with relative paths that break under `file://`.
-
-If GitHub Pages is enabled for this repository, open the published URL and then `output/`.
 
 To run it locally:
 
