@@ -1,0 +1,61 @@
+{
+    "version": "0.0.112",
+    "plot_id": "b5aaaf68-e815-11f1-be1a-dd0a4049e509",
+    "output_directory": "/Users/vickilaaam/Downloads/B24_PixPlot_Trial_01_Reviewed/output",
+    "layouts": {
+        "umap": {
+            "variants": [
+                {
+                    "n_neighbors": 15,
+                    "min_dist": 0.01,
+                    "layout": "/Users/vickilaaam/Downloads/B24_PixPlot_Trial_01_Reviewed/output/data/layouts/umap-b5aaaf68-e815-11f1-be1a-dd0a4049e509.json",
+                    "jittered": "/Users/vickilaaam/Downloads/B24_PixPlot_Trial_01_Reviewed/output/data/layouts/umap-jittered-b5aaaf68-e815-11f1-be1a-dd0a4049e509.json"
+                }
+            ]
+        },
+        "alphabetic": {
+            "layout": "/Users/vickilaaam/Downloads/B24_PixPlot_Trial_01_Reviewed/output/data/layouts/grid-b5aaaf68-e815-11f1-be1a-dd0a4049e509.json"
+        },
+        "grid": {
+            "layout": "/Users/vickilaaam/Downloads/B24_PixPlot_Trial_01_Reviewed/output/data/layouts/rasterfairy-b5aaaf68-e815-11f1-be1a-dd0a4049e509.json"
+        },
+        "categorical": {
+            "layout": "/Users/vickilaaam/Downloads/B24_PixPlot_Trial_01_Reviewed/output/data/layouts/reviewed-b5aaaf68-e815-11f1-be1a-dd0a4049e509.json",
+            "hotspots": "/Users/vickilaaam/Downloads/B24_PixPlot_Trial_01_Reviewed/output/data/hotspots/reviewed-b5aaaf68-e815-11f1-be1a-dd0a4049e509.json",
+            "labels": "/Users/vickilaaam/Downloads/B24_PixPlot_Trial_01_Reviewed/output/data/layouts/reviewed-labels-b5aaaf68-e815-11f1-be1a-dd0a4049e509.json"
+        },
+        "date": false,
+        "geographic": null,
+        "custom": null
+    },
+    "initial_layout": "umap",
+    "point_sizes": {
+        "min": 0,
+        "grid": 0.5,
+        "max": 0.6,
+        "scatter": 0.1,
+        "initial": 0.1,
+        "categorical": 0.3,
+        "geographic": 0.0125
+    },
+    "imagelist": "/Users/vickilaaam/Downloads/B24_PixPlot_Trial_01_Reviewed/output/data/imagelists/imagelist-b5aaaf68-e815-11f1-be1a-dd0a4049e509.json",
+    "atlas_dir": "/Users/vickilaaam/Downloads/B24_PixPlot_Trial_01_Reviewed/output/data/atlases/b5aaaf68-e815-11f1-be1a-dd0a4049e509",
+    "metadata": false,
+    "default_hotspots": "/Users/vickilaaam/Downloads/B24_PixPlot_Trial_01_Reviewed/output/data/hotspots/hotspot-b5aaaf68-e815-11f1-be1a-dd0a4049e509.json",
+    "custom_hotspots": "/Users/vickilaaam/Downloads/B24_PixPlot_Trial_01_Reviewed/output/data/hotspots/user_hotspots.json",
+    "config": {
+        "sizes": {
+            "atlas": 2048,
+            "cell": 32,
+            "lod": 128
+        }
+    },
+    "creation_date": "24-November-2026-22:45:48",
+    "reviewed_layout": {
+        "label": "Reviewed subject groups",
+        "group_count": 6,
+        "image_count": 29,
+        "method": "Human visual inspection of all 29 photographs at full resolution.",
+        "note": "Categorical layout authored during Part 3 of the B24 tutorial. Not model output. The automatic UMAP/KMeans result is unchanged and remains the default layout."
+    }
+}

@@ -1,0 +1,99 @@
+{
+  "_README": "STUDENT / WORKBUDDY REVIEWED CLASSIFICATION - NOT PixPlot model output.",
+  "_schema_note": "This file is the detailed companion to data/hotspots/user_hotspots.json, which holds the same groups in the flat hotspot-array schema the PixPlot viewer requires.",
+  "source_folder": "/Users/vickilaaam/Downloads/B24_photo",
+  "source_image_count": 29,
+  "method": "Every one of the 29 photographs was visually inspected at full resolution from the source folder. Contact sheets with the blank overcast sky cropped away were used to compare subjects directly. Filenames were mapped to zero-based indices using the output's imagelist (data/imagelists/imagelist-b5aaaf68-e815-11f1-be1a-dd0a4049e509.json). Labels describe visible content only and are not verified subject categories.",
+  "orientation_finding": "All 29 photographs are stored correctly oriented. Each photo has a large, nearly blank overcast sky occupying roughly the upper half of the frame, with the scene in the lower portion. This is a characteristic of the photo set (overcast/hazy conditions and a compositional choice), NOT a rotation error. Verified by comparing each as-stored image against a 180-degree rotated copy.",
+  "groups": [
+    {
+      "label": "Stone village buildings and walls",
+      "count": 3,
+      "indices": [0, 1, 2],
+      "filenames": ["B24P03.jpg", "B24P04.jpg", "B24P05.jpg"],
+      "evidence": "Built stone structures dominate the frame in all three. B24P03 shows a coursed-stone wall with a recessed doorway and stone steps. B24P04 shows a flat-roofed stone house sitting on a stepped stone terrace with trees and a hillside behind. B24P05 shows a corner of a stone wall with a doorway and a stack of cut firewood. Grey and tan masonry dominates all three.",
+      "confidence": "high",
+      "uncertainty": null
+    },
+    {
+      "label": "Green fields, footpath and rural road",
+      "count": 3,
+      "indices": [3, 4, 5],
+      "filenames": ["B24P06.jpg", "B24P07.jpg", "B24P08.jpg"],
+      "evidence": "Vegetated rural ground with no masonry. B24P06 shows a pale footpath curving through tall green crops. B24P07 shows a wide green field with a dirt track on the left and a small white building in the valley below hazy hills. B24P08 shows a sandy farm road running toward distant low hills.",
+      "confidence": "high",
+      "uncertainty": "B24P06 and B24P08 could be the same field seen from different positions; the images alone do not establish that."
+    },
+    {
+      "label": "Exposed tidal mudflat at low tide",
+      "count": 3,
+      "indices": [6, 7, 8],
+      "filenames": ["B24P09.jpg", "B24P10.jpg", "B24P11.jpg"],
+      "evidence": "Broad flat brown tidal flats with shallow water channels and wet reflective patches, with a low far shoreline and a distant settlement across the water. B24P09 and B24P10 share the same tan mudflat-and-channel appearance and dark tree mass at the right edge. B24P11 shows a wider wet-sand flat with a distant built-up shore under haze.",
+      "confidence": "high",
+      "uncertainty": null
+    },
+    {
+      "label": "Rocky shore and tidal inlet",
+      "count": 6,
+      "indices": [9, 10, 11, 12, 13, 14],
+      "filenames": ["B24P12.jpg", "B24P13.jpg", "B24P14.jpg", "B24P15.jpg", "B24P16.jpg", "B24P17.jpg"],
+      "evidence": "Rocky foreshore, boulder fields and shallow water, with headlands or wooded hills beyond. B24P12 shows a boulder shore with a bay and distant hills. B24P13 shows a rocky spit across calm water with a hill behind. B24P14 shows a rocky inlet with trees and a small beach. B24P15 shows a wide bay backed by a green ridge. B24P16 shows an armoured stone shore with dark rocks. B24P17 shows open water with a green island and a low shore.",
+      "confidence": "high",
+      "uncertainty": "B24P17 is the least certain member: it shows open water and a green island rather than an obvious rocky shore, and may belong with the next group."
+    },
+    {
+      "label": "Bay, green hills and harbour mouth",
+      "count": 2,
+      "indices": [15, 16],
+      "filenames": ["B24P18.jpg", "B24P19.jpg"],
+      "evidence": "Open water bounded by green hills, with no obvious rock or building detail. B24P18 shows a green island and a low wooded shoreline across flat hazy water. B24P19 shows a rounded green hill rising directly from the water, with a wooded slope on the left.",
+      "confidence": "medium",
+      "uncertainty": "B24P18 and B24P19 appear to show the same bay from different vantage points, but the exact relationship between the island, the shoreline and the hill cannot be confirmed from the images alone."
+    },
+    {
+      "label": "High-rise residential towers by the water",
+      "count": 12,
+      "indices": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+      "filenames": ["B24P20.jpg", "B24P21.jpg", "B24P22.jpg", "B24P23.jpg", "B24P24.jpg", "B24P25.jpg", "B24P26.jpg", "B24P27.jpg", "B24P28.jpg", "B24P29.jpg", "B24P30.jpg", "B24P31.jpg"],
+      "evidence": "Tall pale residential tower blocks appear in every frame. B24P20 and B24P21 show a row of towers across open water under cloud, with mountains behind. B24P22 shows a city waterfront seen past dark trees, with a distant tower block and a bridge. B24P23 shows towers behind a dark wooded shore. B24P24 shows towers mirrored in still water beside a green hill. B24P25 shows tower blocks rising from a forested hillside with pine trees. B24P26 shows a single tall tower close against sky. B24P27 shows a row of towers with reflections. B24P28 shows towers tucked against a green hillside. B24P29 shows a hillside cluster of towers with mountains behind. B24P30 shows a low coastal road with distant towers across the bay. B24P31 shows towers and a bridge structure beside the water.",
+      "confidence": "medium",
+      "uncertainty": "This group is large and mixes several distinct settings: open water, wooded shore, forested hillside, coastal road and bridge. It would likely split more usefully into 'towers across open water' (B24P20-B24P24, B24P27) and 'towers among hills and vegetation' (B24P25, B24P26, B24P28-B24P31). B24P22 and B24P31 are the least certain because the towers are distant or partly cropped out of frame."
+    }
+  ],
+  "unassigned": [],
+  "counts": {
+    "Stone village buildings and walls": 3,
+    "Green fields, footpath and rural road": 3,
+    "Exposed tidal mudflat at low tide": 3,
+    "Rocky shore and tidal inlet": 6,
+    "Bay, green hills and harbour mouth": 2,
+    "High-rise residential towers by the water": 12
+  },
+  "total_images": 29,
+  "comparison_with_automatic": {
+    "automatic_method": "KMeans (PixPlot reported 'HDBSCAN not available; using sklearn KMeans')",
+    "automatic_group_count": 7,
+    "automatic_groups": [
+      {"label": "Cluster 1", "images": [6, 7, 12, 14, 15, 16, 17, 18], "filenames": ["B24P09.jpg", "B24P10.jpg", "B24P15.jpg", "B24P17.jpg", "B24P18.jpg", "B24P19.jpg", "B24P20.jpg", "B24P21.jpg"]},
+      {"label": "Cluster 2", "images": [1, 4, 21, 25, 28], "filenames": ["B24P04.jpg", "B24P07.jpg", "B24P24.jpg", "B24P28.jpg", "B24P31.jpg"]},
+      {"label": "Cluster 3", "images": [3, 10, 11, 13, 20], "filenames": ["B24P06.jpg", "B24P13.jpg", "B24P14.jpg", "B24P16.jpg", "B24P23.jpg"]},
+      {"label": "Cluster 4", "images": [5, 8, 9, 19, 27], "filenames": ["B24P08.jpg", "B24P11.jpg", "B24P12.jpg", "B24P22.jpg", "B24P30.jpg"]},
+      {"label": "Cluster 5", "images": [22, 23, 26], "filenames": ["B24P25.jpg", "B24P26.jpg", "B24P29.jpg"]},
+      {"label": "Cluster 6", "images": [0, 2], "filenames": ["B24P03.jpg", "B24P05.jpg"]},
+      {"label": "Cluster 7", "images": [24], "filenames": ["B24P27.jpg"]}
+    ],
+    "agreements": [
+      "Automatic Cluster 6 (B24P03, B24P05 -> indices 0, 2) closely matches the reviewed 'Stone village buildings and walls' group (indices 0, 1, 2) for the two images it contains. The review adds B24P04 (index 1), a flat-roofed stone house on a stepped stone terrace, which the algorithm placed in Cluster 2.",
+      "Automatic Cluster 5 (B24P25, B24P26, B24P29 -> indices 22, 23, 26) contains exactly three of the twelve tower photographs, and all three are hillside tower views, which agrees with the reviewed 'High-rise residential towers' group.",
+      "Automatic Cluster 1 (indices 6, 7, 12, 14, 15, 16, 17, 18) groups mostly tidal-flat, rocky-shore and bay frames together, broadly agreeing with the reviewed 'Exposed tidal mudflat', 'Rocky shore' and 'Bay, green hills' groups, though the algorithm mixes flat mudflat with rocky shore that the review separates on visible grounds."
+    ],
+    "disagreements": [
+      "Automatic Cluster 2 (indices 1, 4, 21, 25, 28) mixes a village-house frame (index 1 = B24P04), a green-field frame (index 4 = B24P07) and three tower frames (B24P24, B24P28, B24P31). The review separates all four settings because they share no visible subject.",
+      "Automatic Cluster 3 (indices 3, 10, 11, 13, 20) mixes a green-field frame (index 3 = B24P06) with three rocky-shore frames and a tower frame (B24P23). The assignment of B24P06 has no visible justification.",
+      "Automatic Cluster 4 (indices 5, 8, 9, 19, 27) mixes a farm-road frame (B24P08), a mudflat frame (B24P11), a rocky-shore frame (B24P12) and two tower frames (B24P22, B24P30).",
+      "Automatic Cluster 7 contains only index 24 (B24P27), a single tower-and-reflection frame that the review groups with the other eleven tower photographs. The algorithm isolated it, likely because of the large white sky area dominating the frame rather than the subject."
+    ],
+    "example_of_human_review_changing_the_grouping": "B24P04 (index 1) is placed by the automatic clustering in Cluster 2, together with a green-field frame (B24P07) and three tower frames (B24P24, B24P28, B24P31). On visual inspection it clearly shows a flat-roofed stone house on a stepped stone terrace - masonry like B24P03 and B24P05 - so the review moves it into 'Stone village buildings and walls', which the automatic algorithm had split across two different clusters. The automatic grouping also scatters the twelve tower photographs across Clusters 1, 2, 3, 4, 5 and 7, while the review gathers them by the shared visible subject of high-rise residential towers."
+  }
+}

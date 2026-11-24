@@ -1,0 +1,73 @@
+[
+    {
+        "images": [
+            0,
+            1,
+            2
+        ],
+        "img": "B24P04.jpg",
+        "layout": "categorical",
+        "label": "Stone village buildings and walls"
+    },
+    {
+        "images": [
+            3,
+            4,
+            5
+        ],
+        "img": "B24P07.jpg",
+        "layout": "categorical",
+        "label": "Green fields, footpath and rural road"
+    },
+    {
+        "images": [
+            6,
+            7,
+            8
+        ],
+        "img": "B24P10.jpg",
+        "layout": "categorical",
+        "label": "Exposed tidal mudflat at low tide"
+    },
+    {
+        "images": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "img": "B24P15.jpg",
+        "layout": "categorical",
+        "label": "Rocky shore and tidal inlet"
+    },
+    {
+        "images": [
+            15,
+            16
+        ],
+        "img": "B24P19.jpg",
+        "layout": "categorical",
+        "label": "Bay, green hills and harbour mouth"
+    },
+    {
+        "images": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+        ],
+        "img": "B24P26.jpg",
+        "layout": "categorical",
+        "label": "High-rise residential towers by the water"
+    }
+]
